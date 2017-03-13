@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="jplayer-master/dist/skin/pink.flag/css/jplayer.pink.flag.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="jplayer-master/dist/jplayer/jquery.jplayer.min.js"></script>
+<link rel="stylesheet" href="css/main.css">
+  </head>
+</html>
+<body>
+
+  <div class="tameImpala rock psycodelia contemporary pop">
+  <a href="" class="circle-btn-xsSmall circleBtn"></a>
+    <div class="audioWrap">
+      <div class="albumCover"></div>
+
+      <nav>
+        <div id="defualtBar">
+          <div id="progressBar"></div>
+          <span id="currentTime">0:00</span>
+          <span id="fullDuration">0:00</span>
+
+        </div>
+        <div id="mediaButtons">
+          <h3 class="artistTitle">Tame Impala</h3>
+          <h3 class="SongTitle">Let It Happen</h3>
+          <button type="button" id="playButton" class="play" onclick="playOrPause()"></button>
+          <input id="volumeSlider" type="range" min="0" max="100" value="100" step="1">
+
+
+        </div>
+
+      </nav>
+      <audio class="myTrack">
+        <source src="tunes/Let_It_Happen.mp3"></source>
+      </audio>
+    </div>
+  </div>
+
+  <div class="KanyeWest rap hiphop contemporary pop">
+  <a href="" class="circle-btn-xsSmall circleBtn"></a>
+    <div class="audioWrap">
+      <div class="albumCover"></div>
+
+      <nav>
+        <div id="defualtBar">
+          <div id="progressBar"></div>
+          <span id="currentTime">0:00</span>
+          <span id="fullDuration">0:00</span>
+
+        </div>
+        <div id="mediaButtons">
+          <h3 class="artistTitle">Kanye West</h3>
+          <h3 class="SongTitle">Famous</h3>
+          <button type="button" id="playButton" class="play" onclick="playOrPause()"></button>
+          <input id="volumeSlider" type="range" min="0" max="100" value="100" step="1">
+
+
+        </div>
+
+      </nav>
+      <audio class="myTrack">
+        <source src="tunes/Famous.mp3"></source>
+      </audio>
+    </div>
+  </div>
+
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="audioPlayer.js"></script>
+
+</body>
