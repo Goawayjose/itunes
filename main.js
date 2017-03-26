@@ -125,17 +125,62 @@ var app = new Vue({
         artist: 'Big Sean',
         cover: 'img/iDecided.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '377',
+        leftNom: '397',
         topNom: '244'
       },
       song15: {
-        id: '112',
+        id: '62',
         title: 'Moves',
         artist: 'Big Sean',
         cover: 'img/iDecided.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '327',
-        topNom: '64'
+        leftNom: '0',
+        topNom: '437'
+      },
+      song16: {
+        id: '86',
+        title: 'It Aint Me',
+        artist: 'Kygo w/Selena Gomez',
+        cover: 'img/itAintMe.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '307',
+        topNom: '337'
+      },
+      song17: {
+        id: '286',
+        title: 'Let me love you',
+        artist: 'DJ Snake w/Justin Bieber',
+        cover: 'img/letmeloveyou.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '400',
+        topNom: '620'
+      },
+      song18: {
+        id: '66',
+        title: 'Passionfruit',
+        artist: 'Drake',
+        cover: 'img/moreLife.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '3',
+        topNom: '700'
+      },
+      song19: {
+        id: '96',
+        title: 'Passionfruit',
+        artist: 'Drake',
+        cover: 'img/rae.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '408',
+        topNom: '120'
+      },
+      song20: {
+        id: '96',
+        title: 'Passionfruit',
+        artist: 'Drake',
+        cover: 'img/rae.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '408',
+        topNom: '80'
       }
     }
   }
