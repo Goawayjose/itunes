@@ -2,6 +2,8 @@
 <html>
   <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <link rel="stylesheet" href="css/main.css">
   </head>
@@ -21,19 +23,16 @@
                 <div id="defualtBar">
                   <div id="progressBar"></div>
                   <span id="currentTime">0:00</span>
-                  <span id="fullDuration">0:00</span>
+                  <span id="fullDuration">4:00</span>
                 </div>
                 <div id="mediaButtons">
-                  <h3 class="artistTitle">{{song.title}}</h3>
+                  <h2 class="artistTitle">{{song.title}}</h2>
                   <h3 class="SongTitle">{{song.artist}}</h3>
-                  <button type="button" id="playButton" class="play" onclick="playOrPause()"></button>
+                  <button type="button" class="play"></button>
                   <input id="volumeSlider" type="range" min="0" max="100" value="100" step="1">
                 </div>
               </nav>
-
-              <audio id="myTrack">
-                <source v-bind:src="song.trackMp3"></source>
-              </audio>
+            </audio>
             </div>
 
           </div>
@@ -47,7 +46,6 @@
 
 <script type="text/javascript" src="vue.js"></script>
 <script type="text/javascript" src="main.js"></script>
-<script type="text/javascript" src="audioPlayer.js"></script>
 <script type="text/javascript" src="collision.js"></script>
 
 </body>

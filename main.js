@@ -166,21 +166,39 @@ var app = new Vue({
       },
       song19: {
         id: '96',
-        title: 'Passionfruit',
-        artist: 'Drake',
+        title: 'SWVNG',
+        artist: 'Rae Sremmurd',
         cover: 'img/rae.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '408',
-        topNom: '120'
+        leftNom: '396',
+        topNom: '150'
       },
       song20: {
-        id: '96',
-        title: 'Passionfruit',
-        artist: 'Drake',
+        id: '196',
+        title: 'Black Beatles',
+        artist: 'Rae Sremmurd',
         cover: 'img/rae.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '408',
-        topNom: '80'
+        leftNom: '198',
+        topNom: '730'
+      },
+      song21: {
+        id: '206',
+        title: 'Shape of You',
+        artist: 'Ed Sheeran',
+        cover: 'img/shapeofyou.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '475',
+        topNom: '10'
+      },
+      song22: {
+        id: '106',
+        title: 'Tunnel Vision',
+        artist: 'Kodak Black',
+        cover: 'img/tunnelVision.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '65',
+        topNom: '759'
       }
     }
   }
@@ -190,9 +208,34 @@ var app = new Vue({
 
 
 $('.circleBtn').click(function(){
-  $(this).children().addClass('show');
+  $(this).children('.audioWrap').addClass('show');
 });
 
-$('.blackback').click(function(){
-  $('.audioWrap.show').toggleClass('show');
-});
+if ($('.audioWrap').hasClass('show')){
+  $('.audioWrap').click(function(){
+    $('.audioWrap.show').toggleClass('show');
+  });
+}
+
+
+/*function timer(seconds, cb) {
+  var remaningTime = seconds;
+  var minutes = 0;
+  window.setTimeout(function() {
+    cb();
+    console.log(remaningTime);
+    if (remaningTime < 60) {
+      timer(remaningTime + 1, cb);
+    }
+    else{
+      timer(0, cb);
+    }
+  }, 1000);
+}
+
+var callback = function() {
+
+};
+
+timer(0, callback);
+minuteTimer( ) */

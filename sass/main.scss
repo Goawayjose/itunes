@@ -1,4 +1,5 @@
 body {
+  font-family: 'Lato', sans-serif;
   position: relative;
   background: white;
 }
@@ -43,12 +44,15 @@ body {
   background: black;
 }
 .audioWrap .innerWrap {
-  bottom: 0;
+  margin-left: -45vw;
+  left: 50%;
+  bottom: -10px;
   overflow: hidden;
-  width: 100vw;
+  width: 90vw;
   height: 95%;
   position: fixed;
   background: white;
+  border-radius: 8px;
 }
 
 .albumCover {
@@ -56,9 +60,10 @@ body {
   width: 220px;
   border-radius: 5px;
   position: relative;
-  margin: 0px auto;
+  left: 50%;
+  margin-left: -110px;
   background-color: grey;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -89,11 +94,16 @@ body {
   margin: 0px auto;
 }
 
-#mediaButtons h3 {
-
+#mediaButtons h2 {
+  text-align: center;
   position: relative;
   margin: 0px auto;
-  font-family: helvetica;
+}
+#mediaButtons h3 {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  margin: 0px auto;
 }
 
 button.play {
