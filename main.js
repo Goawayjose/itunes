@@ -8,8 +8,8 @@ var app = new Vue({
         artist: 'Kanye West',
         cover: 'img/pablo.jpg',
         trackMp3: 'tunes/Famous.mp3',
-        leftNom: '283',
-        topNom: '442'
+        leftNom: '323',
+        topNom: '472'
       },
       song2: {
         id: '40',
@@ -17,8 +17,8 @@ var app = new Vue({
         artist: 'Tame Impala',
         cover: 'img/currents.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '120',
-        topNom: '184'
+        leftNom: '340',
+        topNom: '584'
       },
       song3: {
         id: '300',
@@ -35,8 +35,17 @@ var app = new Vue({
         artist: 'Gucci Mane ft. Drake',
         cover: 'img/gucciBoth.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '205',
-        topNom: '364'
+        leftNom: '265',
+        topNom: '886'
+      },
+      song45: {
+        id: '200',
+        title: 'Mask Off',
+        artist: 'Future',
+        cover: 'img/future-mask_off_s.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '527',
+        topNom: '526'
       },
       song5: {
         id: '105',
@@ -44,8 +53,8 @@ var app = new Vue({
         artist: 'Travis Scott ft. Kendrick Lamar',
         cover: 'img/goosebumbs.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '168',
-        topNom: '155'
+        leftNom: '648',
+        topNom: '195'
       },
       song6: {
         id: '200',
@@ -53,17 +62,17 @@ var app = new Vue({
         artist: 'Drake',
         cover: 'img/moreLife.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '220',
-        topNom: '-15'
+        leftNom: '185',
+        topNom: '35'
       },
       song7: {
         id: '220',
-        title: 'Starboy',
+        title: 'I feel it coming',
         artist: 'The Weeknd',
         cover: 'img/Starboy.png',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '0',
-        topNom: '225'
+        leftNom: '10',
+        topNom: '195'
       },
       song8: {
         id: '170',
@@ -71,17 +80,17 @@ var app = new Vue({
         artist: 'Migos',
         cover: 'img/badnboujee.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '0',
-        topNom: '25'
+        leftNom: '2',
+        topNom: '5'
       },
       song9: {
         id: '60',
-        title: 'Bad and boujee',
-        artist: 'Migos',
+        title: 'Brocoli',
+        artist: 'DRAM ft. lil Yachty',
         cover: 'img/broccoli.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '0',
-        topNom: '185'
+        leftNom: '670',
+        topNom: '452'
       },
       song10: {
         id: '134',
@@ -89,8 +98,8 @@ var app = new Vue({
         artist: 'Amine',
         cover: 'img/CarolineAmine.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '268',
-        topNom: '190'
+        leftNom: '228',
+        topNom: '330'
       },
       song11: {
         id: '68',
@@ -98,17 +107,8 @@ var app = new Vue({
         artist: 'Major Lazer',
         cover: 'img/coldWater.png',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '224',
-        topNom: '294'
-      },
-      song12: {
-        id: '68',
-        title: 'Cold Water',
-        artist: 'Major Lazer',
-        cover: 'img/coldWater.png',
-        trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '224',
-        topNom: '294'
+        leftNom: '394',
+        topNom: '24'
       },
       song13: {
         id: '154',
@@ -116,8 +116,8 @@ var app = new Vue({
         artist: 'Ariana Grande',
         cover: 'img/dangerousWomen.png',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '327',
-        topNom: '494'
+        leftNom: '567',
+        topNom: '760'
       },
       song14: {
         id: '270',
@@ -135,7 +135,7 @@ var app = new Vue({
         cover: 'img/iDecided.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
         leftNom: '0',
-        topNom: '437'
+        topNom: '417'
       },
       song16: {
         id: '86',
@@ -144,16 +144,16 @@ var app = new Vue({
         cover: 'img/itAintMe.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
         leftNom: '307',
-        topNom: '337'
+        topNom: '237'
       },
       song17: {
-        id: '286',
+        id: '220',
         title: 'Let me love you',
         artist: 'DJ Snake w/Justin Bieber',
         cover: 'img/letmeloveyou.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '400',
-        topNom: '620'
+        leftNom: '314',
+        topNom: '660'
       },
       song18: {
         id: '66',
@@ -162,7 +162,7 @@ var app = new Vue({
         cover: 'img/moreLife.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
         leftNom: '3',
-        topNom: '700'
+        topNom: '720'
       },
       song19: {
         id: '96',
@@ -179,8 +179,8 @@ var app = new Vue({
         artist: 'Rae Sremmurd',
         cover: 'img/rae.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '198',
-        topNom: '730'
+        leftNom: '48',
+        topNom: '770'
       },
       song21: {
         id: '206',
@@ -188,7 +188,7 @@ var app = new Vue({
         artist: 'Ed Sheeran',
         cover: 'img/shapeofyou.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '475',
+        leftNom: '490',
         topNom: '10'
       },
       song22: {
@@ -197,45 +197,80 @@ var app = new Vue({
         artist: 'Kodak Black',
         cover: 'img/tunnelVision.jpg',
         trackMp3: 'tunes/Let_It_Happen.mp3',
-        leftNom: '65',
-        topNom: '759'
+        leftNom: '401',
+        topNom: '527'
+      },
+      song23: {
+        id: '83',
+        title: 'Love in the Brain',
+        artist: 'Rhianna',
+        cover: 'img/loveinthebrain.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '460',
+        topNom: '890'
+      },
+      song24: {
+        id: '53',
+        title: 'Chained to the Rhythm',
+        artist: 'Katy Perry',
+        cover: 'img/Katy.jpg',
+        trackMp3: 'tunes/Let_It_Happen.mp3',
+        leftNom: '698',
+        topNom: '350'
       }
     }
   }
 });
 
 
+window.onload = function(){
+  function insertDecimal(num) {
+     return (num / 100).toFixed(2);
+  }
+}
+
 
 
 $('.circleBtn').click(function(){
-  $(this).children('.audioWrap').addClass('show');
+  $(this).siblings('.audioWrap').addClass('show');
 });
 
 
   $('.clearFront').click(function(){
-    $('this').parent().parent().removeClass('show');
+    $('.audioWrap').removeClass('show');
   });
 
+var thumbsDown = $('.fa-thumbs-down');
+var playBtn = $('.fa-play');
+var pauseBtn = $('.fa-pause');
+
+thumbsDown.on('click', function(){
+  var innerWrap = $(this).parent().parent().parent().parent().parent();
+  innerWrap.addClass('inner-disLiked');
+  innerWrap.siblings().addClass('fade-inner-disLiked');
+  innerWrap.parent().addClass('hide-disLiked');
+  innerWrap.parent().siblings().animate({
+    opacity: 0,
+    height: "+=20",
+    width: "+=20",
+  }, 600, "linear");
+
+  setTimeout(
+   function() {
+       innerWrap.parent().removeClass('show');
+   }, 400);
+
+});
 
 
-/*function timer(seconds, cb) {
-  var remaningTime = seconds;
-  var minutes = 0;
-  window.setTimeout(function() {
-    cb();
-    console.log(remaningTime);
-    if (remaningTime < 60) {
-      timer(remaningTime + 1, cb);
-    }
-    else{
-      timer(0, cb);
-    }
-  }, 1000);
-}
+playBtn.on('click', function(){
+  $(this).addClass('hide');
+  $(this).siblings().removeClass('hide');
+  $(this).parent().parent().parent().parent().parent().addClass('playing');
+});
 
-var callback = function() {
-
-};
-
-timer(0, callback);
-minuteTimer( ) */
+pauseBtn.on('click', function(){
+  $(this).addClass('hide');
+  $(this).siblings().removeClass('hide');
+  $(this).parent().parent().parent().parent().parent().removeClass('playing');
+});
