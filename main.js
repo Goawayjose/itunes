@@ -211,11 +211,11 @@ $('.circleBtn').click(function(){
   $(this).children('.audioWrap').addClass('show');
 });
 
-if ($('.audioWrap').hasClass('show')){
-  $('.audioWrap').click(function(){
-    $('.audioWrap.show').toggleClass('show');
+
+  $('.clearFront').click(function(){
+    $('this').parent().parent().removeClass('show');
   });
-}
+
 
 
 /*function timer(seconds, cb) {
